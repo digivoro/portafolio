@@ -1,0 +1,26 @@
+/* body * {
+} */
+
+.felipe {
+  font-family: "Homemade Apple";
+}
+
+.jumbotron {
+  font-family: "Oswald";
+  background-color: white;
+}
+.jumbotron h1 {
+  color: crimson;
+}
+
+.bg-crimson {
+  background-color: crimson;
+}
+
+#bio {
+  line-height: 40px;
+}
+
+#ultimos-trabajos img {
+  max-height: 10rem;
+}
