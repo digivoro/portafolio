@@ -1,26 +1,108 @@
-/* body * {
-} */
+header {
+  font-family: "Oswald";
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right, #c31432, #240b36);
+  padding-top: 10rem;
+  box-shadow: 5px 10px 10px #27000780;
+}
+
+header img {
+  border-radius: 60%;
+  box-shadow: 5px 7px 5px #27000773;
+  width: 60%;
+  float: right;
+}
+
+nav {
+  background: linear-gradient(to right, #c31432, #240b36);
+  font-family: "Oswald";
+}
+
+footer {
+  box-shadow: 0px -5px 10px #27000740;
+}
+
+footer .felipe {
+  font-size: 4rem;
+}
+
+h1,
+h2 {
+  font-family: "Oswald";
+}
+
+.section-title {
+  text-transform: uppercase;
+  border-bottom: 3px solid;
+  padding-bottom: 1rem;
+}
 
 .felipe {
-  font-family: "Homemade Apple";
-}
-
-.jumbotron {
-  font-family: "Oswald";
-  background-color: white;
-}
-.jumbotron h1 {
-  color: crimson;
+  font-family: "Mr Dafoe";
+  word-spacing: 0.5rem;
 }
 
 .bg-crimson {
-  background-color: crimson;
+  background-color: #c31432;
+}
+
+.carousel-indicators {
+  margin: 0;
+  background-color: #240b36;
+  height: 4.5rem;
+}
+
+.carousel-indicators li {
+  /* position: relative; */
+  bottom: 0rem;
+  transition: ease-out 0.5s;
+}
+
+.carousel-indicators li.active {
+  bottom: 0;
+  height: 0.5rem;
+  width: 30px;
+  border-radius: 30% 30% 50% 50%;
+  transition: ease-out 0.5s;
+}
+
+.carousel-caption {
+  bottom: -1rem;
+  color: white;
+  text-shadow: 1px 1px 5px #240b36;
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 3rem;
+  z-index: 100;
+}
+
+.carousel-control-next {
+  right: -7rem;
+}
+
+.carousel-control-prev {
+  left: -7rem;
+}
+
+.carousel-item img {
+  vertical-align: super;
 }
 
 #bio {
   line-height: 40px;
 }
 
+#ultimos-trabajos {
+  height: 100vh;
+  box-shadow: 0px 5px 10px #27000740;
+}
+
 #ultimos-trabajos img {
-  max-height: 10rem;
+  object-fit: cover;
+  height: 60vh;
+}
+
+#navbar {
+  transition: ease-in-out 1s;
 }

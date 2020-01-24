@@ -1,65 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Felipe Castro Richter" />
+    <meta name="description" content="Personal web developer portfolio" />
+    <meta name="keywords" content="Web Development, Front-End, Vue, React, HTML, CSS, JS" />
+
     <title>
-      Felipe Castro Richter: Portafolio
+      Felipe Castro Richter - Portafolio
     </title>
 
-    <!-- Fuentes, Bootstrap, CSS -->
+    <!-- Boostrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,600,700|Homemade+Apple|Open+Sans:300,600&display=swap" rel="stylesheet" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,600,700|Mr+Dafoe|Open+Sans:300,600&display=swap" rel="stylesheet" />
+
+    <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+
+    <!-- Main Styles -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0">
-      <div class="container">
-        <a class="navbar-brand felipe" href="#">Felipe</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark px-3 fixed-top">
+      <a class="navbar-brand felipe" href="#">Felipe Castro Richter</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent" aria-controls="navContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Sobre mi<span class="sr-only"> (current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Experiencia</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Trabajo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
-            </li>
-          </ul>
-        </div>
+      <div class="collapse navbar-collapse" id="navContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#bio">Sobre mi<span class="sr-only"> (current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experiencia">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ultimos-trabajos">Trabajos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
     <!-- Header -->
-    <header class="jumbotron jumbotron-fluid text-white text-center pb-1">
-      <h1>Desarrollador Web, Analista de Datos y Nerd de Internet</h1>
+    <header class="container-fluid text-white text-center pb-5 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <img class="img-fluid mt-5 d-flex align-items-center" src="./assets/img/felipe.jpg" alt="Felipe Castro" />
+          </div>
+          <div class="col-sm-6 d-flex align-items-center">
+            <div class="text-left">
+              <h1 class="pb-4">Hola, soy <span class="felipe mx-2 text-white display-3">Felipe</span>.</h1>
+              <h2 class="text-warning">Desarrollador Front-End, Analista de Datos y</h2>
+              <h2 class="typewrite text-warning" data-period="200" data-type='[ ".","padre de dos gatos.", "me gusta el diseño.", "nerd suelto en Internet." ]'></h2>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- Bio -->
-    <div id="bio" class="container d-none d-md-block">
+    <div id="bio" class="container-fluid d-none d-md-block bg-light py-5">
       <div class="row w-75 mx-auto">
-        <h4 class="col-md-12">
+        <h4 class="col-md-12 py-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ullam quaerat accusamus optio maxime amet modi, perferendis magnam fuga non!
         </h4>
-        <div class="col-md-6">
+        <div class="col-md-6 py-4">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quibusdam eos voluptates eveniet cupiditate ab! Obcaecati sed illo voluptate reiciendis, amet aut quo maiores. Neque officia explicabo totam quibusdam! Dolores reiciendis vitae dicta quibusdam iusto nesciunt, aspernatur error ea laboriosam amet illum, non sint commodi esse fuga exercitationem illo optio est eligendi voluptate eos voluptatibus vel neque eaque. Adipisci, quae.
           </p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 py-4">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quibusdam eos voluptates eveniet cupiditate ab! Obcaecati sed illo voluptate reiciendis, amet aut quo maiores. Neque officia explicabo totam quibusdam! Dolores reiciendis vitae dicta quibusdam iusto nesciunt, aspernatur error ea laboriosam amet illum, non sint commodi esse fuga exercitationem illo optio est eligendi voluptate eos voluptatibus vel neque eaque. Adipisci, quae.
           </p>
@@ -68,18 +89,20 @@
     </div>
 
     <!-- Experiencia -->
-    <div id="experiencia" class="container text-center py-5">
-      <h2 class="text-center">Mi experiencia</h2>
-      <div class="row">
-        <div class="col-sm-6">
-          <i class="far fa-file-excel fa-4x"></i>
-          <h3>Data Analyst</h3>
-          <h4>2017 - Actualidad</h4>
-        </div>
-        <div class="col-sm-6">
-          <i class="fas fa-globe fa-4x"></i>
-          <h3>Front-End Web Developer</h3>
-          <h4>2020 - Actualidad</h4>
+    <div id="experiencia" class="container-fluid text-center py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-5 section-title">Mi experiencia</h2>
+        <div class="row">
+          <div class="col-sm-6">
+            <i class="far fa-file-excel fa-4x"></i>
+            <h3 class="py-2">Data Analyst</h3>
+            <h5>2017 - Actualidad</h5>
+          </div>
+          <div class="col-sm-6">
+            <i class="fas fa-globe fa-4x"></i>
+            <h3 class="py-2">Front-End Web Developer</h3>
+            <h5>2020 - Actualidad</h5>
+          </div>
         </div>
       </div>
     </div>
@@ -87,59 +110,69 @@
     <!-- Últimos Trabajos -->
     <div id="ultimos-trabajos" class="container-fluid bg-crimson py-5">
       <div class="container">
-        <h2 class="text-center text-white">Mis últimos trabajos</h2>
-        <div class="card-deck py-4 w-75 mx-auto">
-          <div class="card mx-1">
-            <img src="./assets/img/meetcoffee.png" class="card-img-top" alt="Meet&Coffee" />
-            <div class="card-body">
-              <h5 class="card-title">Meet&Coffee</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, maxime.</p>
+        <h2 class="text-center text-white mb-5 section-title">Mis últimos trabajos</h2>
+        <div id="carouselTrabajos" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselTrabajos" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselTrabajos" data-slide-to="1"></li>
+            <li data-target="#carouselTrabajos" data-slide-to="2"></li>
+            <li data-target="#carouselTrabajos" data-slide-to="3"></li>
+            <li data-target="#carouselTrabajos" data-slide-to="4"></li>
+            <li data-target="#carouselTrabajos" data-slide-to="5"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/img/meetcoffee.png" class="d-block w-100" alt="Meet&Coffee" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Meet&Coffee</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/iguana-page.png" class="d-block w-100" alt="Iguana Page" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Iguana Page</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/suricata.png" class="d-block w-100" alt="Suricata" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Suricata</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/cuppon.png" class="d-block w-100" alt="Cuppon" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Cuppon</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/ricomida.png" class="d-block w-100" alt="Ricomida" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Ricomida</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/olivia-ros.png" class="d-block w-100" alt="Olivia Ros" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Olivia Ros</h5>
+              </div>
             </div>
           </div>
-          <div class="card mx-1">
-            <img src="./assets/img/iguana-page.png" class="card-img-top" alt="Iguana page" />
-            <div class="card-body">
-              <h5 class="card-title">Iguana Page</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, maxime.</p>
-            </div>
-          </div>
-          <div class="card mx-1">
-            <img src="./assets/img/suricata.png" class="card-img-top" alt="Suricata" />
-            <div class="card-body">
-              <h5 class="card-title">Suricata</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, maxime.</p>
-            </div>
-          </div>
-        </div>
-        <div class="card-deck py-4 w-75 mx-auto">
-          <div class="card mx-1">
-            <img src="./assets/img/cuppon.png" class="card-img-top" alt="Cuppon" />
-            <div class="card-body">
-              <h5 class="card-title">Cuppon</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, maxime.</p>
-            </div>
-          </div>
-          <div class="card mx-1">
-            <img src="./assets/img/ricomida.png" class="card-img-top" alt="Ricomida" />
-            <div class="card-body">
-              <h5 class="card-title">Ricomida</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, maxime.</p>
-            </div>
-          </div>
-          <div class="card mx-1">
-            <img src="./assets/img/olivia-ros.png" class="card-img-top" alt="Olivia Ros" />
-            <div class="card-body">
-              <h5 class="card-title">Olivia Ros</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, maxime.</p>
-            </div>
-          </div>
+          <a class="carousel-control-prev" href="#carouselTrabajos" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselTrabajos" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </div>
 
     <!-- Contacto -->
     <div id="contacto" class="container text-center py-5">
-      <h2>Contacto</h2>
+      <h2 class="section-title">Contacto</h2>
       <p>¿Quieres conocer más de mi?</p>
       <button class="btn btn-dark">Comenzar</button>
     </div>
@@ -149,13 +182,13 @@
       <div class="container text-white">
         <div class="row">
           <div class="col-sm-6">
-            <h2 class="felipe text-center">Felipe</h2>
+            <h2 class="felipe text-center text-md-right pr-md-4">Felipe</h2>
           </div>
-          <div class="col-sm-6">
-            <i class="fab fa-github-square fa-4x"></i>
-            <i class="fab fa-linkedin fa-4x"></i>
-            <i class="fab fa-twitter-square fa-4x"></i>
-            <i class="fab fa-facebook-square fa-4x"></i>
+          <div class="col-sm-6 text-center text-md-left pl-md-4">
+            <a href="https://github.com/nKardia" class="text-white"><i class="fab fa-github-square fa-4x" data-toggle="tooltip" data-placement="top" title="Github: nKardia"></i></a>
+            <a href="https://www.linkedin.com/in/fcastrorichter/" class="text-white"><i class="fab fa-linkedin fa-4x" data-toggle="tooltip" data-placement="top" title="LinkedIn: Felipe Castro Richter"></i></i></a>
+            <a href="https://twitter.com/digivoro" class="text-white"><i class="fab fa-twitter-square fa-4x" data-toggle="tooltip" data-placement="top" title="Twitter: @digivoro"></i></i></a>
+            <a href="https://www.facebook.com/digivoro/" class="text-white"><i class="fab fa-facebook-square fa-4x" data-toggle="tooltip" data-placement="top" title="Facebook: fb.com/digivoro"></i></i></a>
           </div>
         </div>
       </div>
