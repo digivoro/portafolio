@@ -1,0 +1,23 @@
+[33mcommit ce21f3acc13844d961b1da51b2590ba778ac2ecb[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Felipe Castro Richter <nkardia@gmail.com>
+Date:   Fri Jan 24 15:14:43 2020 -0300
+
+    Añade funcion en hover para navbar
+
+[33mcommit 6ae1ec6953c31783901806b40811fbf4b0268f3d[m
+Author: Felipe Castro Richter <nkardia@gmail.com>
+Date:   Fri Jan 24 11:41:59 2020 -0300
+
+    Agrego smooth scroll
+
+[33mcommit ab639ec1a4e64a8d36bc35b6d9edca1612077e97[m[33m ([m[1;32mdev[m[33m)[m
+Author: Felipe Castro Richter <nkardia@gmail.com>
+Date:   Fri Jan 24 10:42:55 2020 -0300
+
+    Cambios bknes
+
+[33mcommit 51d43031ff34c21b405c9c6f36a1626ab4dfebdf[m
+Author: Felipe Castro Richter <nkardia@gmail.com>
+Date:   Wed Jan 22 12:26:43 2020 -0300
+
+    Initial commit

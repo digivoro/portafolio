@@ -9,12 +9,6 @@ header {
   background: linear-gradient(to right, #c31432, #240b36);
 }
 
-header img {
-  border-radius: 60%;
-  box-shadow: 5px 7px 5px #27000773;
-  width: 30%;
-}
-
 nav {
   background: linear-gradient(to right, #c31432, #240b36);
   font-family: "Oswald";
@@ -34,6 +28,14 @@ h2 {
 }
 header h2 {
   color: #f9cd48;
+  line-height: 3rem;
+}
+
+header img {
+  border-radius: 60%;
+  box-shadow: 5px 7px 5px #27000773;
+  width: 60%;
+  margin-top: 50px;
 }
 
 .section-title {
@@ -105,11 +107,22 @@ header h2 {
 }
 
 #navbar {
-  transition: ease-in-out 1s;
-  z-index: 1000;
+  transition: ease-in 0.3s;
 }
 
 .navHover {
   top: 0px;
   /* transition: ease-in 1s; */
+}
+
+.txt-type > .txt {
+  border-right: 0.2rem solid #777;
+}
+
+@media (min-width: 768px) {
+  header img {
+    border-radius: 60%;
+    box-shadow: 5px 7px 5px #27000773;
+    width: 30%;
+  }
 }
