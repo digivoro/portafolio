@@ -26,6 +26,7 @@ h1,
 h2 {
   font-family: "Oswald";
 }
+
 header h2 {
   color: #f9cd48;
   line-height: 3rem;
@@ -102,6 +103,7 @@ header img {
 
 .carousel-item img {
   object-fit: cover;
+  object-position: top;
   height: 70vh;
   vertical-align: top;
 }
@@ -112,7 +114,6 @@ header img {
 
 .navHover {
   top: 0px;
-  /* transition: ease-in 1s; */
 }
 
 .txt-type > .txt {
