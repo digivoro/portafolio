@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   font-family: "Oswald";
   height: 100vh;
