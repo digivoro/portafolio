@@ -2,6 +2,12 @@ html {
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
 header {
   font-family: "Oswald";
   height: 100vh;
@@ -118,10 +124,6 @@ header img {
 
 .txt-type > .txt {
   border-right: 0.2rem solid #777;
-}
-
-#navbar {
-  width: 100vw;
 }
 
 @media (min-width: 768px) {
