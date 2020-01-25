@@ -15,18 +15,7 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 };
 
-$("#navbar").hover(
-  function() {
-    document.getElementById("navbar").style.top = "0px";
-    document.getElementById("navbar").style.transition = "ease-in-out 1s";
-  },
-  function() {
-    document.getElementById("navbar").style.top = "-50px";
-    document.getElementById("navbar").style.transition = "ease-in-out 1s";
-  }
-);
-
-$("header").hover(
+$("#navbar, header, div.helper").hover(
   function() {
     document.getElementById("navbar").style.top = "0px";
     document.getElementById("navbar").style.transition = "ease-in-out 1s";
