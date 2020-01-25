@@ -120,6 +120,10 @@ header img {
   border-right: 0.2rem solid #777;
 }
 
+#navbar {
+  width: 100vw;
+}
+
 @media (min-width: 768px) {
   header img {
     border-radius: 60%;
