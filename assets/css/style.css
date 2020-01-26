@@ -135,6 +135,14 @@ header img {
   border-right: 0.2rem solid #777;
 }
 
+#experiencia i {
+  color: #c31432;
+}
+#experiencia h3 {
+  font-family: "Oswald";
+  font-weight: 700;
+}
+
 @media (min-width: 768px) {
   header img {
     border-radius: 60%;
