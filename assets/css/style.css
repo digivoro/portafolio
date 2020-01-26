@@ -74,10 +74,15 @@ header img {
   background-color: #c31432;
 }
 
+.carousel-inner,
+.carousel-indicators {
+  border-radius: 3px;
+}
 .carousel-indicators {
   margin: 0;
   background-color: #240b36;
   height: 4.5rem;
+  border-radius: 0 0 3px 3px;
 }
 
 .carousel-indicators li {
@@ -138,6 +143,7 @@ header img {
 #experiencia i {
   color: #c31432;
 }
+
 #experiencia h3 {
   font-family: "Oswald";
   font-weight: 700;
